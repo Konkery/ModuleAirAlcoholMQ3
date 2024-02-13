@@ -125,7 +125,7 @@ ch0.Start(1000);
 
 //Вывод данных
 setInterval(() => {
-  console.log(`C2H5OH: ${(ch0.Value).toFixed(2)} ppm`);
+  console.log(`C2H5OH: ${(ch0.Value).toFixed(4)} ppm`);
 }, 1000);
 
 ```
